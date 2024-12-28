@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+<link rel="stylesheet" href="./styles/style.css">
+<link rel="stylesheet" href="./styles/index.css">
+<link rel="stylesheet" href="./styles/admin.css">
+</head>
+<body>
+    <!-- nabar  -->
+    <nav id="nav"></nav>
+
+    <!-- for books -->
+     <h2>Add New Books</h2>
+     <form id="form">
+        <input id="title" type="text" placeholder="Enter Title">
+        <input id="author" type="text" placeholder="Enter Author">
+
+        <select id="select">
+            <option value="">Choose Genre</option>
+            <option value="fiction">Fiction</option>
+            <option value="comedy">Comedy</option>
+            <option value="technical">Technical</option>
+        </select>
+
+        <input type="submit" id="bookBtn" value="Add Book">
+     </form>
+
+     <div id="cont"></div>
+</body>
+<script src="./scripts/navbar.js"></script>
+<script src="./scripts/admin.js" type="module"></script>
+<script src="./scripts/baseurl.js"></script>
+</html>
+

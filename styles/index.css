@@ -1,0 +1,21 @@
+#form{
+    margin: auto;
+    border: 2px solid rgb(92, 28, 28);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    padding: 20px;
+    gap: 20px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+input, select{
+    font-size: 1rem;
+    color: rgb(92, 28, 28);
+}
