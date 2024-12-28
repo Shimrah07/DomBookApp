@@ -104,7 +104,7 @@ async function getBook(){
 
     }catch(err){
         console.log(err);
-        alert("can't fetch book data")
+        // alert("can't fetch book data")
     }
 }
 
@@ -124,18 +124,6 @@ function displayData(arr){
 
 
             // verify button
-            // Include two buttons: Verify Book and Delete Book.
-// Verify Button:
-// Show a confirmation prompt stating: Are you sure to Verify..?. On clicking Yes:
-// Set the isVerified status to true.
-
-// Once verified, disable the Verify Book button (button.disabled = true).
-// Save the changes using a PATCH request and update the UI.
-
-
-// Delete Button:
-// Show a confirmation prompt stating: Are you sure to Delete..?. On clicking Yes:
-// Delete the book using a DELETE request and update the UI.
 
             let verBtn = document.createElement("button");
             verBtn.textContent = "Verify Book"
